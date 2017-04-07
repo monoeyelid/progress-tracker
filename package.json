@@ -2,13 +2,13 @@
   "name": "progress-tracker",
   "version": "1.0.0",
   "description": "a web application to track job searching progress",
-  "main": "server/server.js",
+  "main": "server/app.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node server/app.js",
     "build": "webpack -d --watch",
     "buildDeploy": "webpack",
     "test": "mocha spec/**/*Spec.js",
-    "dev": "nodemon server/server.js"
+    "dev": "nodemon server/app.js"
   },
   "repository": {
     "type": "git",
