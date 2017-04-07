@@ -1,0 +1,29 @@
+{
+  "name": "progress-tracker",
+  "version": "1.0.0",
+  "description": "a web application to track job searching progress",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "webpack -d --watch",
+    "buildDeploy": "webpack",
+    "test": "mocha spec/**/*Spec.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monoeyelid/progress-tracker.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "nodejs",
+    "mySQL"
+  ],
+  "author": "Ai Shi, DJ Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monoeyelid/progress-tracker/issues"
+  },
+  "homepage": "https://github.com/monoeyelid/progress-tracker#readme"
+}
